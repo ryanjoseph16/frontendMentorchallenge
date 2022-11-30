@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="style.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body >
+  <main >
+    <div class="balance">
+      <div>
+         <h3>My balance</h3> 
+        <p>$921.48</p>
+      </div>
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div>
+     
+    </div>
+    
+    <div class="spending-container" style="background-color: white;
+        height: 16rem;
+        width: 19rem; ">
+      <div class="spending">
+         <h2 style="color:black;">Spending - Last 7 days</h2> 
+
+      </div>
+
+      <div class="days-container"  style="
+        display: grid;
+        grid-template-columns:32px 32px 32px 32px 32px 32px 32px;
+        grid-template-rows: 100px;
+        column-gap: 13px;
+        align-items: end;
+        ">
+        <div class="days" style="
+          background-color: hsl(10, 79%, 65%);
+          border-radius: 4px;
+          height: 35px;
+          display: grid;
+          
+         ">
+         <div class="expenses">$17.45</div>
+          <p>mon</p>
+        </div>
+        <div  class="days" style="background-color: hsl(10, 79%, 65%);
+            border-radius: 4px;
+            height: 60px;
+            display: grid;
+            
+          ">
+          <div class="expenses">$34.91</div>
+          <p>tue</p>
+        </div>
+        <div   class="days" style="background-color:hsl(186, 34%, 60%);
+          border-radius: 4px;
+          height: 85px;
+          display: grid;
+         
+          ">
+          <div class="expenses">$52.36</div>
+          <p>wed</p>
+        </div>
+        <div  class="days" style="background-color: hsl(10, 79%, 65%);
+          border-radius: 4px;
+          height: 50px;
+          display: grid;
+          ">
+          <div class="expenses">$31.07</div>
+        <p>thu</p>
+        </div>
+        <div  class="days" style="background-color: hsl(10, 79%, 65%);
+          border-radius: 4px;
+          height: 40px;
+          display: grid;
+          ">
+          <div class="expenses">$23.39</div>
+          <p>fri</p>
+        </div>
+        <div  class="days" style="background-color: hsl(10, 79%, 65%);
+          border-radius: 4px;
+          height: 60px;
+          display: grid;
+          ">
+          <div class="expenses">$43.28</div>
+          <p>sat</p>
+        </div>
+        <div  class="days" style="background-color: hsl(10, 79%, 65%);
+          border-radius: 4px;
+          height: 45px;
+          display: grid;
+          ">
+          <div class="expenses">$25.48</div>
+        <p>sun</p>
+        </div>
+        
+      </div>
+      <hr >
+      <div class="bottom" style="display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: end;">
+        
+        <div>
+          <p>Total this month</p>
+          <h3>$478.33</h3>
+        </div>
+        <div class="percentage">
+          <h4>+2.4%</h4>
+          <p>from last month</p> 
+        </div>
+      </div>
+      
+    </div>
+    
+     
+
+  </main>
+ 
+  
+  
+</body>
+</html>
